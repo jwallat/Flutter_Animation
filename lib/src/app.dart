@@ -3,6 +3,7 @@ import "screens/home.dart";
 
 class App extends StatelessWidget {
   Widget build(context) {
+    print("startup");
     return MaterialApp(
       title: "Animation",
       theme: ThemeData(primarySwatch: Colors.blue),
